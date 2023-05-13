@@ -3,10 +3,16 @@
 *{
     margin: 0%;
     padding: 0%;
+    background-position: center;
     text-decoration: none;
     list-style: none;
     font-family:"Inter" ;
 }
+
+body{
+    overflow-x: hidden;
+}
+
 
 .background-neymar{
     background: rgba(3,0,12,0.7) url(img/24bc74b176e929dcb09a2bef4fbc2123.jpg);
