@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=Lato:wght@100&display=swap');
+
+*{
+    margin: 0%;
+    padding: 0%;
+    text-decoration: none;
+    list-style: none;
+    font-family:"Inter" ;
+}
+
+.background-neymar{
+    background: rgba(3,0,12,0.7) url(img/24bc74b176e929dcb09a2bef4fbc2123.jpg);
+    background-blend-mode: darken;
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 100vh;
+    max-width: 100%;
+}
+
+.logo img{
+    width: 50px;
+    height: auto;
+
+}
+span{
+    color: red;
+}
+header{
+    display: flex;
+    justify-content: center;
+    padding-top: 2rem;
+    align-items: center;
+    text-align: center;
+    gap: 10rem;
+}
+
+nav{
+    display: flex;
+    gap: 30px;
+    font-size: 15px;
+}
+
+nav a{
+    color: #fff;
+    font-weight: 500;
+}
+
+.button-enter{
+    display: flex;
+    gap: 2rem;
+    align-items: center;
+}
+
+.button-enter button{
+    background-color: #da2535;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+}
+
+.button-enter a{
+    color: #fff;
+    font-size: 18px;
+}
+
+.meio-neymar h1{
+    color: #fff;
+    font-size: 68px;
+}
+
+
+.meio-neymar p{
+    color: #f9f9f9;
+    font-size: 17px;
+    font-style: italic;
+    font-weight: 500 ;
+    margin-top: 1rem;
+    line-height: 25px;
+}
+
+.meio-container{
+    margin-left: 14%;
+    margin-top: 12px;
+    max-width: 100%;
+}
+
+.btn{
+    background-color: #da2535;
+    padding: 10px;
+    color: #fff;
+    border-radius: 5px;
+    border: none;
+    margin-top: 3rem;
+    cursor: pointer;
+    width: 150px;
+}
+
+.main-esc p{
+    position: absolute;
+    width: 176px;
+    height: 39px;
+    left: 559px;
+    top: 980px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 32px;
+    line-height: 39px;
+    /* identical to box height */
+    
+    
+    color: #0B1421;
+    
+} 
+
+.main-esc img{
+    position: absolute;
+width: 130px;
+height: 130px;
+left: 769px;
+top: 935px;
+
+background: url(img/c79e77f54d573711db1c54d2341ffbe7.png);
+}
+
+.main-meio{
+    position: absolute;
+    width: 143px;
+    height: 75px;
+    left: 933px;
+    top: 962px;
+    
+    font-family: 'Inter';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 62px;
+    line-height: 75px;
+    /* identical to box height */
+    
+    
+    color: #0B1421;
+}
+
+.main-dir img{
+    position: absolute;
+width: 150px;
+height: 150px;
+left: 1110px;
+top: 925px;
+
+background: url(img/657cb2dbfa8518f282b7ae9e8cb25e3b.png);
+}
+
+.main-dir p{
+    position: absolute;
+width: 66px;
+height: 39px;
+left: 1295px;
+top: 980px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+
+color: #0B1421;
+
+}
+
+.footer{
+    position: absolute;
+width: 1920px;
+height: 800px;
+left: 0px;
+top: 1200px;
+
+background: linear-gradient(0deg, rgba(11, 20, 33, 0.8), rgba(11, 20, 33, 0.8)), url(img/a1407a4de405379e2eb034aa9bbff20f.jpg)
+}
+
+bg{
+    
+position: absolute;
+width: 1020px;
+height: 449px;
+left: 450px;
+top: 1376px;
+
+background: #F9F9F9;
+}
+
+.bg{
+    position: absolute;
+width: 1020px;
+height: 449px;
+left: 450px;
+top: 1376px;
+
+background: #F9F9F9;
+}
+
+.text h1{
+    position: absolute;
+width: 547px;
+height: 39px;
+left: 509px;
+top: 1416px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 600;
+font-size: 32px;
+line-height: 39px;
+/* identical to box height */
+
+
+color: #0B1421;
+
+}
+
+.text p{
+    
+position: absolute;
+width: 940px;
+height: 248px;
+left: 490px;
+top: 1479px;
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 400;
+font-size: 18px;
+line-height: 170%;
+/* or 31px */
+
+
+color: #515151;
+}
+
+.video{
+    position: absolute;
+    height: 554px;
+    left: 46px;
+    top: 2320px;
+}
+
+.video h1{
+    color: #0B1421;
+    font-size: 190;
+    font-family:  "YouTube Sans","Roboto",sans-serif;
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 75px;
+}
+.messi-copa{
+    position: absolute;
+    width: 100px;
+    height: 100px;
+    left: 1330px;
+    top: 2321px;
+    
+background: url(img/000_334p8nw-655x450.jpg);
+
+}
+
+.messi-copa a{
+    position: absolute;
+width: 2595px;
+height: 108px;
+
+
+font-family: 'Inter';
+font-style: normal;
+font-weight: 500;
+font-size: 20px;
+line-height: 24px;
+
+    color: dodgerblue;
+}
+
